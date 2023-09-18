@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "errno.h": "c",
+        "stdlib.h": "c",
+        "tokenlist.h": "c",
+        "hash.h": "c",
+        "handlecharacters.h": "c",
+        "tokens.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "uchar.h": "c",
+        "stdbool.h": "c",
+        "characters.h": "c"
+    },
+    "cSpell.words": [
+        "alingof",
+        "BITINT",
+        "elifdef",
+        "elifndef",
+        "SYMBOLTABLE",
+        "unqual",
+        "Unsuffixed",
+        "yolo"
+    ]
+}

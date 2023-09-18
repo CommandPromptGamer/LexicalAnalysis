@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/Recompose/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "_Decimal32=float",
+                "_Decimal64=double",
+                "_Decimal128=long double"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

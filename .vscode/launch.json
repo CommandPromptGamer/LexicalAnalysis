@@ -1,0 +1,86 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug decompose",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/output/main",
+            "args": ["test.c", "-o", "a.tok"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb",
+                "program": "${workspaceFolder}/output/main"
+            },
+            "osx": {
+                "MIMode": "lldb",
+                "miDebuggerPath": "lldb-mi",
+                "program": "${workspaceFolder}/output/main"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb.exe",
+                "program": "${workspaceFolder}/output/main.exe"
+            },
+            "preLaunchTask": "build"
+        },
+        {
+            "name": "Debug recompose",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/output/main",
+            "args": ["a.tok", "-o", "a.c", "-r"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb",
+                "program": "${workspaceFolder}/output/main"
+            },
+            "osx": {
+                "MIMode": "lldb",
+                "miDebuggerPath": "lldb-mi",
+                "program": "${workspaceFolder}/output/main"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb.exe",
+                "program": "${workspaceFolder}/output/main.exe"
+            },
+            "preLaunchTask": "build"
+        },
+        {
+            "name": "Debug round-trip",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/output/main",
+            "args": ["test.c", "-o", "a.c", "-rt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb",
+                "program": "${workspaceFolder}/output/main"
+            },
+            "osx": {
+                "MIMode": "lldb",
+                "miDebuggerPath": "lldb-mi",
+                "program": "${workspaceFolder}/output/main"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb.exe",
+                "program": "${workspaceFolder}/output/main.exe"
+            },
+            "preLaunchTask": "build"
+        }
+    ]
+}

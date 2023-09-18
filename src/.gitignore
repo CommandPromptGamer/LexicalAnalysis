@@ -1,0 +1,5 @@
+# Ignore build files in the src folder
+*.o
+
+# Ignore dependency files in the src folder
+*.d

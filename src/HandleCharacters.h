@@ -1,0 +1,1 @@
+extern char * ( *characterFunctions[ 128 ] )();

@@ -1,0 +1,6 @@
+# Ignore build files
+/output/
+
+# Ignore output files
+a.tok
+a.c
